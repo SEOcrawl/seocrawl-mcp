@@ -1,0 +1,24 @@
+{
+  "name": "seocrawl-mcp-manifest",
+  "version": "1.0.0",
+  "description": "Public introspection manifest for the SEOcrawl AI MCP server (hosted at https://mcp.seocrawl.ai).",
+  "type": "module",
+  "bin": {
+    "seocrawl-mcp-manifest": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "license": "MIT",
+  "homepage": "https://seocrawl.ai/mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SEOcrawl/seocrawl-mcp.git"
+  }
+}

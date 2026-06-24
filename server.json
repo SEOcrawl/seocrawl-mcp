@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.SEOcrawl/seocrawl-mcp",
+  "description": "SEO + GEO MCP server: Google Search Console, GA4, AI Tracker and SEO tasks from chat.",
+  "repository": {
+    "url": "https://github.com/SEOcrawl/seocrawl-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://seocrawl.ai/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.seocrawl.ai"
+    }
+  ]
+}

@@ -1,13 +1,26 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.seocrawl/mcp",
+  "title": "SEOcrawl AI",
   "description": "SEO MCP server: Search Console, GA4, Crawler and AI visibility across 6 AI engines",
   "repository": {
     "url": "https://github.com/SEOcrawl/seocrawl-mcp",
     "source": "github"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://seocrawl.ai/mcp",
+  "icons": [
+    {
+      "src": "https://seocrawl.ai/favicon.png",
+      "mimeType": "image/png",
+      "sizes": ["32x32"]
+    },
+    {
+      "src": "https://seocrawl.ai/logo-seocrawl-spider-square.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

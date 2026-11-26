@@ -160,7 +160,7 @@ The names below are the real MCP tool IDs. Full descriptions: [seocrawl.ai/mcp](
 - `list_prompt_citations` — The sources the AI engines cited when answering one prompt, aggregated over the range: own_domain plus every cited domain and URL flagged with is_own_domain and url_count — so you can see which of your pages earn citations and…
 - `trigger_prompt_run` — Run a tracked prompt now on every engine it tracks instead of waiting for its schedule (write action).
 - `create_prompt` — Create a tracked prompt: the question that runs against the AI engines.
-- `update_prompt` — Partially update a tracked prompt — any combination of its text, engine list, country, response language or run cadence; omitted fields are left unchanged.
+- `update_prompt` — Partially update a tracked prompt — any combination of its text, engine list, country, response language or run cadence; omitted fields are left unchanged. Pass `topicId` or `topicTitle` to move it to another topic, keeping its history.
 - `delete_prompt` — Delete a tracked prompt and all of its recorded engine responses.
 - `list_prompt_topics` — List the prompt topics that group prompts on the Prompt Tracking page — each with topic_id and title.
 - `create_prompt_topic` — Create (or fetch) a prompt topic by title — an idempotent upsert, so re-creating an existing title returns it unchanged with created=false.
